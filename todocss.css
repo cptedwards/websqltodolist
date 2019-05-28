@@ -1,0 +1,57 @@
+body{
+    background: rgb(255, 255, 255);
+    color: rgb(51, 51, 51);
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+input, button{
+    outline: none;
+}
+button{
+    background: none;
+    border: 0px;
+    color: rgb(95, 94, 94);
+    font-size: 15px;
+    width: 60px;
+    margin: 10px 0px 0px;
+}
+button:hover{
+    color: rgb(51, 51, 51);
+}
+input[type="text"]{
+    margin: 0px;
+    font-size: 18px;
+    line-height: 18px;
+    height: 18px;
+    padding: 10px;
+    border: 1px solid rgb(221, 221, 221);
+    background: rgb(255, 255, 255);
+    border-radius: 6px;
+    color: rgb(136, 136, 136);
+}
+li{
+    overflow: hidden;
+    padding: 20px 0px;
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
+li > input[type="checkbox"]{
+    margin: 0px 10px;
+    position: relative;
+}
+li > label{
+    font-size: 20px;
+    line-height: 40px;
+    width: 250px;
+    padding: 0px 0px 0px 10px;
+}
+li >  input[type="text"]{
+    width: 240px;
+}
+li> .dzlt:hover{
+    color:rgb(15, 197, 124);
+}
+li > .sil:hover{
+    color: rgb(207, 35, 35);
+}
